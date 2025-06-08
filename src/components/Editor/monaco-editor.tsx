@@ -4,6 +4,8 @@ import { useSocket } from '@/providers/socketProvider';
 import { ACTIONS } from '@/lib/actions';
 import type { editor } from 'monaco-editor';
 
+
+ // adding other languges is remaining  
 interface MonacoEditorProps {
   roomId: string;
   language?: string;
